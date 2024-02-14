@@ -146,7 +146,7 @@ const crazy = new mojs.Burst({
 
 const timeline = new mojs.Timeline({
   onComplete: function () {
-    window.location.href = 'Valentine.html';
+    window.location.href = 'Congratulation.html';
   }
 });
 
@@ -158,5 +158,5 @@ timeline.play();
 
 const loveElement = document.getElementById('love');
 loveElement.addEventListener('click', function () {
-  window.location.href = 'Valentine.html';
+  window.location.href = 'Congratulation.html';
 });
